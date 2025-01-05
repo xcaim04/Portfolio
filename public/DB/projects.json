@@ -1,0 +1,36 @@
+{
+    "projects": [
+        {
+            "title": "Weather App",
+            "imageUrl": "/projects/weather.png",
+            "technologies": [
+                { "name": "TypeScript", "iconUrl": "/icons/TS.svg" },
+                { "name": "React", "iconUrl": "/icons/React.svg" },
+                { "name": "CSS", "iconUrl": "/icons/CSS.svg" },
+                { "name": "HTML", "iconUrl": "/icons/HTML.svg" }
+            ],
+            "url": "https://weather-app-cblanco.vercel.app/"
+        },
+        {
+            "title": "Guess My Number",
+            "imageUrl": "/projects/guess.png",
+            "technologies": [
+                { "name": "JavaScript", "iconUrl": "/icons/JS.svg" },
+                { "name": "HTML", "iconUrl": "/icons/HTML.svg" },
+                { "name": "CSS", "iconUrl": "/icons/CSS.svg" }
+            ],
+            "url": "https://guessnumber-cblanco.vercel.app/"
+        },
+        {
+            "title": "Personal Blog",
+            "imageUrl": "/projects/blog.png",
+            "technologies": [
+                { "name": "TypeScript", "iconUrl": "/icons/TS.svg" },
+                { "name": "CSS", "iconUrl": "/icons/CSS.svg" },
+                { "name": "Astro", "iconUrl": "/icons/Astro.svg" },
+                { "name": "TailwindCSS", "iconUrl": "/icons/Tailwind.svg" }
+            ],
+            "url": "https://weather-app-cblanco.vercel.app/"
+        }
+    ]
+}

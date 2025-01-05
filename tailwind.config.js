@@ -12,6 +12,7 @@ export default {
             },
             fontFamily: {
                 Lato: ['"Lato"', "serif"],
+                writte: ["Whisper", "serif"],
             },
         },
     },
