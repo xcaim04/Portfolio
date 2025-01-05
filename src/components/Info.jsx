@@ -1,16 +1,17 @@
+import React from "react";
+
 function Info() {
-    const title = "text-bluedark text-xl font-bold";
+    const title = "text-bluedark text-xl font-bold text-center";
     const img = "w-10";
-    const titleContainer =
-        "flex flex-col items-center justify-center gap-2 h-full";
+    const titleContainer = "flex flex-col items-center justify-center gap-2";
 
     return (
-        <section className="flex flex-col w-screen h-fit justify-center items-center">
-            <div className="bg-primary w-full h-96 p-8 text-center text-white flex flex-col justify-center items-center gap-5">
-                <h1 className="text-3xl" id="about">
+        <section className="flex flex-col w-full h-fit justify-center items-center sm:text-sm">
+            <div className="bg-primary w-screen h-auto lg:h-96 p-8 text-center text-white flex flex-col justify-center items-center gap-5 mb-5">
+                <h1 className="text-sm md:text-3xl font-bold" id="about">
                     {"Hello, I'm Carlos Blanco, nice to meet you."}
                 </h1>
-                <p className="w-1/2 font-bold text-xl text-center leading-9">
+                <p className="text-sm w-11/12 lg:w-1/2 font-bold md:text-xl text-center leading-6 md:leading-9">
                     I am a self-taught web developer and Computer Engineering
                     student with a robust background in advanced technologies. I
                     have extensive experience with JavaScript, TypeScript,
@@ -22,30 +23,41 @@ function Info() {
                     prestigious ICPC competition.
                 </p>
             </div>
-            <div className="w-1/2 bg-white border rounded-md p-1 relative bottom-12  flex flex-1 justify-between">
+            <div
+                id="information"
+                className="w-11/12 md:w-2/3 lg:w-1/2 bg-white border rounded-md p-5 grid grid-cols-1 lg:grid-cols-3 gap-5 relative bottom-12"
+            >
                 <div className={titleContainer}>
                     <h2 className={title}>Frontend Developer</h2>
                     <img
-                        src="../../public/icons/frontend.svg"
+                        src="/icons/frontend.svg"
                         className={img}
+                        alt="Frontend Developer"
                     />
-                    <p className="w-2/3 text-center">
-                        JavaScript, TypeScript, React, TailwindCSS, Bootsrap,
-                        Astro, BEM
+                    <p className="w-full text-center">
+                        TypeScript, React, TailwindCSS, Bootstrap, Astro, BEM
                     </p>
                 </div>
                 <div className={titleContainer}>
                     <h2 className={title}>Competitive Programmer</h2>
-                    <img src="../../public/icons/cp.svg" className={img} />
-                    <p className="w-2/3 text-center">
-                        C++, Java, Python, Algorithms, Data Structures,
+                    <img
+                        src="/icons/cp.svg"
+                        className={img}
+                        alt="Competitive Programmer"
+                    />
+                    <p className="w-full text-center">
+                        C++, Java, Python, Algorithms, Data Structures,{" "}
                         <strong>More +150 problems solved.</strong>
                     </p>
                 </div>
                 <div className={titleContainer}>
                     <h2 className={title}>Backend Developer</h2>
-                    <img src="../../public/icons/backend.svg" className={img} />
-                    <p className="w-2/3 text-center">
+                    <img
+                        src="/icons/backend.svg"
+                        className={img}
+                        alt="Backend Developer"
+                    />
+                    <p className="w-full text-center">
                         Terminal, Git, Linux, MySQL, MongoDB, Python, FastAPI,
                         NodeJS, Express, TypeScript.
                     </p>
