@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import NavBar from "../components/NavBar";
 import Info from "../components/Info";
 import Projects from "../components/Projects";
+import MoreInfo from "../components/MoreInfo";
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
                 <Header />
                 <Info />
                 <Projects />
+                <MoreInfo />
             </section>
         </div>
     );

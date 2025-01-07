@@ -30,7 +30,17 @@
                 { "name": "Astro", "iconUrl": "/icons/Astro.svg" },
                 { "name": "TailwindCSS", "iconUrl": "/icons/Tailwind.svg" }
             ],
-            "url": "https://weather-app-cblanco.vercel.app/"
+            "url": "https://astro-white-tech.vercel.app/"
+        },
+        {
+            "title": "Problems Repositories",
+            "imageUrl": "/projects/CP.jpg",
+            "technologies": [
+                { "name": "C++", "iconUrl": "/icons/C++.svg" },
+                { "name": "Java", "iconUrl": "/icons/Java.svg" },
+                { "name": "Python", "iconUrl": "/icons/Python.svg" }
+            ],
+            "url": "https://github.com/xcaim04/Introduction_to_programming/tree/main/problems"
         }
     ]
 }
