@@ -8,7 +8,7 @@ function Home() {
     return (
         <div className="p-3">
             <NavBar />
-            <section className="w-full h-fit flex flex-col justify-center items-center gap-20">
+            <section className="w-full h-fit flex flex-col justify-center items-center">
                 <Header />
                 <Info />
                 <Projects />
