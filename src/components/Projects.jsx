@@ -13,7 +13,7 @@ const Projects = () => {
 
     return (
         <div id="projects" className="container mx-auto p-4">
-            <h1 className="text-3xl font-bold text-center mb-8">My Projects</h1>
+            <h2 className="text-3xl font-bold text-center mb-8">My Projects</h2>
             <div className="flex flex-wrap justify-center gap-5">
                 {projects.map((project, index) => (
                     <Card

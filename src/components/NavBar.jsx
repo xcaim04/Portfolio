@@ -11,9 +11,9 @@ function NavBar() {
 
     return (
         <div className="flex flex-row justify-around items-center md:text-2xl sm:text-sm">
-            <h1 className="border-2 border-dark rounded-md p-1 text-dark">
+            <h2 className="border-2 border-dark rounded-md p-1 text-dark">
                 Carlos Blanco
-            </h1>
+            </h2>
             <div className="flex flex-row gap-4">
                 <a
                     onClick={() => scrollToSection("about")}

@@ -1,5 +1,10 @@
 import Home from "./Pages/Home";
+import HelmetProvider from "react-helmet";
 
-const App = () => <Home />;
-
-export default App;
+export default function App() {
+    return (
+        <HelmetProvider>
+            <Home />
+        </HelmetProvider>
+    );
+}

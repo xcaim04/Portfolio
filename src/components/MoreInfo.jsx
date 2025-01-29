@@ -12,9 +12,9 @@ const MoreInfo = () => {
     return (
         <div className={containerStyle}>
             <div className={sectionStyle}>
-                <h1 className="text-2xl font-bold border-b-2 pb-2">
+                <h2 className="text-2xl font-bold border-b-2 pb-2">
                     Education
-                </h1>
+                </h2>
                 <ul className="m-5 flex flex-col gap-6 w-full">
                     <li className={listStyle}>
                         <img
@@ -52,9 +52,9 @@ const MoreInfo = () => {
             </div>
 
             <div className={sectionStyle}>
-                <h1 className="text-2xl font-bold border-b-2 pb-2">
+                <h2 className="text-2xl font-bold border-b-2 pb-2">
                     Experiences
-                </h1>
+                </h2>
                 <ul className="m-5 flex flex-col gap-6 w-full">
                     <li className={listStyle}>
                         <img

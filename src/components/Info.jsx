@@ -8,9 +8,9 @@ function Info() {
     return (
         <section className="flex flex-col w-full h-fit justify-center items-center sm:text-sm">
             <div className="bg-primary w-screen h-auto lg:h-96 p-8 text-center text-white flex flex-col justify-center items-center gap-5 mb-5">
-                <h1 className="text-sm md:text-3xl font-bold" id="about">
+                <h2 className="text-sm md:text-3xl font-bold" id="about">
                     {"Hello, I'm Carlos Blanco, nice to meet you."}
-                </h1>
+                </h2>
                 <p className="text-sm w-11/12 lg:w-1/2 font-bold md:text-xl text-center leading-6 md:leading-9">
                     I am a self-taught web developer and Computer Engineering
                     student with a robust background in advanced technologies. I
@@ -29,22 +29,26 @@ function Info() {
             >
                 <div className={titleContainer}>
                     <h2 className={title}>Frontend Developer</h2>
-                    <img
-                        src="/icons/frontend.svg"
-                        className={img}
-                        alt="Frontend Developer"
-                    />
+                    <figure>
+                        <img
+                            src="/icons/frontend.svg"
+                            className={img}
+                            alt="Frontend Developer"
+                        />
+                    </figure>
                     <p className="w-full text-center">
                         TypeScript, React, TailwindCSS, Bootstrap, Astro, BEM
                     </p>
                 </div>
                 <div className={titleContainer}>
                     <h2 className={title}>Competitive Programmer</h2>
-                    <img
-                        src="/icons/cp.svg"
-                        className={img}
-                        alt="Competitive Programmer"
-                    />
+                    <figure>
+                        <img
+                            src="/icons/cp.svg"
+                            className={img}
+                            alt="Competitive Programmer"
+                        />
+                    </figure>
                     <p className="w-full text-center">
                         C++, Java, Python, Algorithms, Data Structures,{" "}
                         <strong>More +150 problems solved.</strong>
@@ -52,11 +56,13 @@ function Info() {
                 </div>
                 <div className={titleContainer}>
                     <h2 className={title}>Backend Developer</h2>
-                    <img
-                        src="/icons/backend.svg"
-                        className={img}
-                        alt="Backend Developer"
-                    />
+                    <figure>
+                        <img
+                            src="/icons/backend.svg"
+                            className={img}
+                            alt="Backend Developer"
+                        />
+                    </figure>
                     <p className="w-full text-center">
                         Terminal, Git, Linux, MySQL, MongoDB, Python, FastAPI,
                         NodeJS, Express, TypeScript.
