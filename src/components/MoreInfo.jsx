@@ -17,11 +17,7 @@ const MoreInfo = () => {
                 </h2>
                 <ul className="m-5 flex flex-col gap-6 w-full">
                     <li className={listStyle}>
-                        <img
-                            src="public/icons/PR.png"
-                            className={imgStyle}
-                            alt="PR"
-                        />
+                        <img src="icons/PR.png" className={imgStyle} alt="PR" />
                         <h3 className="transition-colors duration-300 hover:text-gray-400">
                             Computer Engineer
                         </h3>
@@ -29,7 +25,7 @@ const MoreInfo = () => {
 
                     <li className={listStyle}>
                         <img
-                            src="public/icons/UH.jpeg"
+                            src="icons/UH.jpeg"
                             className={imgStyle}
                             alt="UH"
                         />
@@ -40,7 +36,7 @@ const MoreInfo = () => {
 
                     <li className={listStyle}>
                         <img
-                            src="public/icons/freecodecamp.png"
+                            src="icons/freecodecamp.png"
                             className={imgStyle}
                             alt="freeCodeCamp"
                         />
@@ -58,7 +54,7 @@ const MoreInfo = () => {
                 <ul className="m-5 flex flex-col gap-6 w-full">
                     <li className={listStyle}>
                         <img
-                            src="/public/icons/Konecta.png"
+                            src="icons/Konecta.png"
                             className={`${imgStyle} border border-gray-50`}
                             alt="Konecta"
                         />

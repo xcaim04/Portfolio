@@ -9,16 +9,19 @@ function Home() {
     return (
         <div className="p-3">
             <Helmet>
-                <title>Portfolio | Carlos Blanco</title>
+                <title>Carlos Javier Blanco Moreira</title>
                 <meta
                     name="description"
                     content="Welcome to my portfolio. Here you can find information about my projects and skills."
                 />
                 <meta
                     name="keywords"
-                    content="portfolio, developer, projects, skills, web, javascript, react, tailwindcss, python, fastapi"
+                    content="portfolio, developer, projects, skills, web, javascript, react, tailwindcss, python, fastapi, carlos javier, carlos blanco, xcaimdev, xcaim04, carlos javier blanco moreira"
                 />
-                <meta property="og:title" content="Portfolio | Carlos Blanco" />
+                <meta
+                    property="og:title"
+                    content="Carlos Javier Blanco Moreira"
+                />
                 <meta
                     property="og:description"
                     content="Welcome to my portfolio. Here you can find information about my projects and skills."
